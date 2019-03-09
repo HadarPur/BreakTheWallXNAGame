@@ -15,6 +15,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
         private SpriteFont gaming;
         private SpriteFont galaga;
         public Texture2D gameOverSprite;
+        public Texture2D winSprite;
 
         private bool win;
 
@@ -25,6 +26,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
             this.gaming = (SpriteFont)game.Services.GetService(typeof(SpriteFont));
             this.galaga = (SpriteFont)game.Services.GetService(typeof(SpriteFont));
             this.gameOverSprite = game.Content.Load<Texture2D>("game_over");
+            this.winSprite = game.Content.Load<Texture2D>("win");
             this.gaming = game.Content.Load<SpriteFont>("Master");
             this.galaga = game.Content.Load<SpriteFont>("Master");
         }
@@ -37,7 +39,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
         public override void Draw(GameTime gameTime)
         {
             if (win)
-                spriteBatch.DrawString(gaming, "GAME OVER - You Won!", new Vector2(game.GraphicsDevice.Viewport.Width / 9, 50), Color.DarkOrange);
+                spriteBatch.Draw(winSprite, new Vector2(game.GraphicsDevice.Viewport.Width / 2 - winSprite.Width / 2, game.GraphicsDevice.Viewport.Height / 2 - winSprite.Height / 2), Color.White);
             else
                 spriteBatch.Draw(gameOverSprite, new Vector2(game.GraphicsDevice.Viewport.Width / 2 - gameOverSprite.Width / 2, game.GraphicsDevice.Viewport.Height / 2 - gameOverSprite.Height / 2), Color.White);
             spriteBatch.DrawString(galaga, "Press ESC to go back to the menu", new Vector2(game.GraphicsDevice.Viewport.Width / 3, game.GraphicsDevice.Viewport.Height-100), Color.White);

@@ -63,13 +63,13 @@
     <Compile Include="Sprites\BallSprite.cs" />
     <Compile Include="Sprites\BarSprite.cs" />
     <Compile Include="Sprites\ExplosionSprite.cs" />
-    <Compile Include="Sprites\BrownStarSprite.cs" />
     <Compile Include="Scenes\GameOverScene.cs" />
     <Compile Include="Scenes\GamePlayScene.cs" />
     <Compile Include="Sprites\BrickSprite.cs" />
     <Compile Include="Scenes\InstructionsScene.cs" />
     <Compile Include="Scenes\OpeningScene.cs" />
     <Compile Include="Scenes\Scene.cs" />
+    <Compile Include="Sprites\HeartSprite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

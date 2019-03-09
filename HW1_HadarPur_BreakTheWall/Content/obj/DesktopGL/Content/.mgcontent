@@ -11,14 +11,18 @@
     <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/explosion.png</File>
     <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/game_over.png</File>
     <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/greensprite.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/heart_life.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/heart2.png</File>
     <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/instructions.png</File>
     <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/lightbluesprite.png</File>
     <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/Master.spritefont</File>
     <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/pinksprite.png</File>
     <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/startGame.png</File>
-    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/yellowAsteroid.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/win.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

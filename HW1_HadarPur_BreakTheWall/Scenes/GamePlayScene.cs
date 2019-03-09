@@ -18,7 +18,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
         private BallSprite ballSprite;
         private ExplosionSprite explosionSprite;
         private KeyboardState kboard;
-        //private SoundEffect sound;
+        public Texture2D heartlife;
         private bool waitForPlayer = true;
         private SpriteFont myFont;
         private int lifes = 3;
@@ -36,11 +36,12 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
             this.spriteBatch = (SpriteBatch)game.Services.GetService(typeof(SpriteBatch));
             this.myFont = (SpriteFont)game.Services.GetService(typeof(SpriteFont));
             this.myFont = game.Content.Load<SpriteFont>("Master");
-            //this.sound = game.Content.Load<SoundEffect>("thud");
+            this.heartlife = game.Content.Load<Texture2D>("heart_life");
             this.barSprite = new BarSprite(game);
             this.ballSprite = new BallSprite(game, this);
             this.explosionSprite = new ExplosionSprite(game, new Vector2(10, 10), false);
             this.scene = scene;
+
             SceneComponents.Add(barSprite);
             SceneComponents.Add(ballSprite);
             SceneComponents.Add(explosionSprite);
@@ -70,6 +71,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
                 kboard = Keyboard.GetState();
                 if (kboard.IsKeyDown(Keys.Enter) && prev.IsKeyUp(Keys.Enter))
                 {
+                    this.barSprite.setBarPos(game.GraphicsDevice.Viewport.Width / 2 - this.barSprite.getBarWidth() / 2, (int)barSprite.getBarPos().Y);
                     this.ballSprite.setWaitForPlayer(false);
                     this.waitForPlayer = false;
                 }
@@ -101,18 +103,19 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
                 this.Hide();
                 this.scene.Show();
             }
-
-            //  explosionSprite.setDraw(false);
-
+            
             base.Update(gameTime);
-
-
         }
 
         public override void Draw(GameTime gameTime)
         {
-            spriteBatch.DrawString(myFont, "Lifes remaines: " + lifes, new Vector2(5, 5), Color.White);
-
+            spriteBatch.DrawString(myFont, "Lifes remaines: ", new Vector2(5, 5), Color.White);
+            int x = 150;
+            for (int i=0; i<lifes; i++)
+            {
+                spriteBatch.Draw(heartlife, new Vector2(x, 5), Color.White);
+                x += 35;
+            }
             if (waitForPlayer)
             {
                 spriteBatch.DrawString(myFont, "Press Enter to start the game", new Vector2(game.GraphicsDevice.Viewport.Width / 8, game.GraphicsDevice.Viewport.Height / 2), Color.White);

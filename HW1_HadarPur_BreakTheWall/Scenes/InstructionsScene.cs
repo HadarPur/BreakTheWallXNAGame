@@ -20,7 +20,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
         private const int NUM_INSTRUCTIONS = 4;
         private OpeningScene scene;
 
-        private BrownStarSprite basteroid;
+        private HeartSprite heart;
 
         public InstructionsScene(Game game, OpeningScene scene)
             : base(game)
@@ -29,7 +29,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
             this.scene = scene;
             this.spriteBatch = (SpriteBatch)game.Services.GetService(typeof(SpriteBatch));
             this.myFont = game.Content.Load<SpriteFont>("Master");
-            this.basteroid = new BrownStarSprite(game);
+            this.heart = new HeartSprite(game);
 
             this.instructions = new String[NUM_INSTRUCTIONS];
             this.instructions[0] = "Game Rules:";
@@ -37,7 +37,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
             this.instructions[2] = "  2) Try to hit the asteroids with the ball.";
             this.instructions[3] = "Press ESC to go back to the menu";
 
-            SceneComponents.Add(basteroid);
+            SceneComponents.Add(heart);
         }
 
         public override void Update(GameTime gameTime)
