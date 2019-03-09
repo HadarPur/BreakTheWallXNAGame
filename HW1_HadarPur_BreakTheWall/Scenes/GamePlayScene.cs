@@ -69,9 +69,10 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
             if (waitForPlayer)
             {
                 kboard = Keyboard.GetState();
+                this.barSprite.setBarPos(game.GraphicsDevice.Viewport.Width / 2 - this.barSprite.getBarWidth() / 2, (int)barSprite.getBarPos().Y);
+
                 if (kboard.IsKeyDown(Keys.Enter) && prev.IsKeyUp(Keys.Enter))
                 {
-                    this.barSprite.setBarPos(game.GraphicsDevice.Viewport.Width / 2 - this.barSprite.getBarWidth() / 2, (int)barSprite.getBarPos().Y);
                     this.ballSprite.setWaitForPlayer(false);
                     this.waitForPlayer = false;
                 }
