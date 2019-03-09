@@ -30,3 +30,4 @@
 /Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/obj/x86/Debug/HW1_HadarPur_BreakTheWall.pdb
 /Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/bin/Debug/Content/win.xnb
 /Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/bin/Debug/Content/heart_life.xnb
+/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/obj/x86/Debug/HW1_HadarPur_BreakTheWall.MacOS.csprojAssemblyReference.cache

@@ -34,7 +34,7 @@ namespace HW1_HadarPur_BreakTheWall.Scenes
             this.instructions = new String[NUM_INSTRUCTIONS];
             this.instructions[0] = "Game Rules:";
             this.instructions[1] = "  1) Move bar with arrows so that the ball wont cross the bar.";
-            this.instructions[2] = "  2) Try to hit the asteroids with the ball.";
+            this.instructions[2] = "  2) Try to hit the bricks with the ball.";
             this.instructions[3] = "Press ESC to go back to the menu";
 
             SceneComponents.Add(heart);
