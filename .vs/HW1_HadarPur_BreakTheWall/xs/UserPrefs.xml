@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{3A23AA06-840E-4419-9CA5-6CA6A633EB1F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/MonoGame.framework/v3.7.1.189/MonoGame.Content.Builder.targets">
+    <Files>
+      <File FileName="HW1_HadarPur_BreakTheWall/Game1.cs" Line="111" Column="18" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Scenes/GameOverScene.cs" Line="43" Column="24" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Scenes/GamePlayScene.cs" Line="39" Column="28" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Scenes/InstructionsScene.cs" Line="40" Column="42" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Master.spritefont" Line="29" Column="23" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Sprites/BrickSprite.cs" Line="26" Column="27" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Sprites/BallSprite.cs" Line="29" Column="69" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Sprites/BarSprite.cs" Line="49" Column="31" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Sprites/BrownStarSprite.cs" Line="18" Column="16" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Sprites/ExplosionSprite.cs" Line="31" Column="61" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Scenes/Scene.cs" Line="11" Column="15" />
+      <File FileName="HW1_HadarPur_BreakTheWall/Scenes/OpeningScene.cs" Line="54" Column="45" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/MonoGame/v3.0/MonoGame.Content.Builder.targets" Line="84" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HW1_HadarPur_BreakTheWall" expanded="True">
+            <Node name="HW1_HadarPur_BreakTheWall.MacOS" expanded="True">
+              <Node name="Content" expanded="True">
+                <Node name="Content.mgcb" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Scenes" expanded="True" />
+              <Node name="Sprites" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HW1__HadarPur__BreakTheWall.MacOS PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

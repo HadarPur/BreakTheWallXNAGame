@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/ball2.jpg</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/bar.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/bluesprite.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/break_the_wall.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/explosion.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/game_over.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/greensprite.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/instructions.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/lightbluesprite.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/Master.spritefont</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/pinksprite.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/startGame.png</File>
+    <File>/Users/hpur/Projects/HW1_HadarPur_BreakTheWall/HW1_HadarPur_BreakTheWall/Content/yellowAsteroid.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
